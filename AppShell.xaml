@@ -3,13 +3,15 @@
     x:Class="DndPlanner.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     xmlns:local="clr-namespace:DndPlanner"
+    xmlns:view="clr-namespace:DndPlanner.View"
     Shell.FlyoutBehavior="Disabled"
-    Title="DndPlanner">
+    Title="Dnd Session Planner">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate view:MainPage}"
         Route="MainPage" />
 
 </Shell>

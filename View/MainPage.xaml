@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DndPlanner.View.MainPage"
+             xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#d02527">
+
+    <StackLayout 
+                 VerticalOptions="Start"
+                 HorizontalOptions="Center"
+                 Spacing="10"
+                 BackgroundColor="Transparent"
+                 Padding="10">
+
+        <Label Text="Dungeons &amp; Dragons
+               Session Planner"
+               TextColor="White"
+               FontSize="42"
+               FontFamily="AlteSchwabancherDemibold"
+               HorizontalTextAlignment="Center"/>
+
+        <Button BackgroundColor="WhiteSmoke"
+                MaximumWidthRequest="300"
+                FontSize="32"
+                FontAttributes="Bold"
+                TextColor="Black"
+                CornerRadius="30"
+                Text="Plan New Session"/>
+
+        <Button/>
+        
+    </StackLayout>
+
+</ContentPage>
